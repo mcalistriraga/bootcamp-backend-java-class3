@@ -1,0 +1,24 @@
+CLASE3-ACTIVIDAD 2
+2) Armen un JSON con la información relevante de su equipo. Por ejemplo, nombre del equipo, número, integrantes, discord de los integrantes, etc.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+SOLUCION:
+
+{
+  "team_name": "sky_dev",
+  "num_members": 3,
+  "members": [
+    {
+      "name": "Manuel",
+      "discord": "mcalistri.freel.dev"
+    },
+    {
+      "name": "luz Marina",
+      "discord": "luz.marina.dev"
+    },
+    {
+      "name": "Jesus Manuel",
+      "discord": "jesus.calistri.dev"
+    }
+  ]
+}
+
