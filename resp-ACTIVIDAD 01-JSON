@@ -28,7 +28,7 @@ Estos teléfonos están disponibles para proporcionar más información sobre lo
  
 Solución:
 
-Ejemplo de JSON:
+JSON-solicitado:
 {
   "nombre_academia": "Next Lang",
   "dirección": "calle principal 123",
