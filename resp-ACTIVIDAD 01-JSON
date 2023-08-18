@@ -1,0 +1,61 @@
+CLASE #3  ->SOLUCION: ACTIVIDAD #1
+
+1) Transformar el siguiente texto en JSON:
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+“La academia de idiomas "Next Lang" se encuentra 
+ubicada en la calle principal 123 de la ciudad de Villa Carlos Paz. Esta academia ofrece una variedad de 
+cursos, entre los cuales se destacan:
+Curso de "Inglés básico": 
+Este curso introductorio está diseñado para principiantes. 
+Tiene una duración de 4 semanas 
+y tiene un precio de 100 dólares.
+
+Curso de "Inglés Avanzado": 
+Este curso está diseñado para estudiantes avanzados. 
+Tiene una duración de 20 semanas 
+y un precio de 400 dólares.
+
+Curso de "Italiano básico": 
+Este curso introductorio está diseñado para principiantes. 
+Tiene una duración de 5 semanas 
+y tiene un precio de 120 dólares.
+
+La academia también cuenta con una variedad de teléfonos de contacto, 
+incluyendo los números 156734756 y 154456234. 
+
+Estos teléfonos están disponibles para proporcionar más información sobre los cursos y resolver cualquier consulta que los interesados puedan tener.”
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+Solución:
+
+Ejemplo de JSON:
+{
+  "nombre_academia": "Next Lang",
+  "dirección": "calle principal 123",
+  "ciudad": "Villa Carlos Paz",
+  "cursos": [
+    {
+      "nombre": "Inglés básico",
+      "nivel": "principiante",
+      "duración": "4 semanas",
+      "precio": "100 dólares"
+    },
+    {
+      "nombre": "Inglés Avanzado",
+      "nivel": "avanzado",
+      "duración": "20 semanas",
+      "precio": "400 dólares"
+    },
+    {
+      "nombre": "Italiano básico",
+      "nivel": "principiante",
+      "duración": "5 semanas",
+      "precio": "120 dólares"
+    }
+  ],
+  "teléfonos": [
+    "156734756",
+    "154456234"
+  ]
+}
+
