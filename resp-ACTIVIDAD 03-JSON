@@ -1,0 +1,77 @@
+CLASE3-ACTIVIDAD 3
+3) Crear un archivo JSON con preguntas y respuestas para un juego de trivia. Cada pregunta debe tener propiedades como el enunciado de la pregunta, 
+opciones de respuesta, la respuesta correcta y una explicación detallada de por qué esa opción es la correcta.
+---------------------------------------------------------------------------------------------------------------------------------------------------
+SOLUCION:
+
+{
+  "preguntas": [
+    {
+      "enunciado": "enunciado de la pregunta...",
+      "respuestas": [
+        "resp_0",
+        "resp_1",
+        "resp_N-1"
+      ],
+      "resp_correcta": 0,
+      "explicación": "texto........"
+    },
+    {
+      "enunciado": "enunciado de la pregunta...",
+      "respuestas": [
+        "resp_0",
+        "resp_1",
+        "resp_N-1"
+      ],
+      "resp_correcta": 0,
+      "explicación": "texto........"
+    },
+    {
+      "enunciado": "enunciado de la pregunta...",
+      "respuestas": [
+        "resp_0",
+        "resp_1",
+        "resp_N-1"
+      ],
+      "resp_correcta": 0,
+      "explicación": "texto........"
+    }
+  ]
+}
+
+
+......................................................................................................................................................................................
+Version Clase3-Actividad3 ChatGPT
+Mas detallado…
+[
+  {
+    "question": "¿Cuál es el elemento químico con el símbolo H?",
+    "options": ["Helio", "Hidrógeno", "Hierro", "Heliofragma"],
+    "correct_answer": "Hidrógeno",
+    "explanation": "El símbolo químico H corresponde al hidrógeno. Es el elemento más ligero y abundante en el universo, formando parte de muchas moléculas y reacciones químicas."
+  },
+  {
+    "question": "¿En qué año tuvo lugar el primer viaje de Cristóbal Colón a América?",
+    "options": ["1492", "1500", "1488", "1510"],
+    "correct_answer": "1492",
+    "explanation": "Cristóbal Colón realizó su primer viaje a América en 1492, financiado por los Reyes Católicos de España. Este viaje marcó el inicio de la exploración europea en el continente americano."
+  },
+  {
+    "question": "¿Cuál es el río más largo del mundo?",
+    "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+    "correct_answer": "Nilo",
+    "explanation": "El río Nilo es el más largo del mundo, con una longitud de aproximadamente 6,650 kilómetros. Ha sido fundamental para el desarrollo de las civilizaciones en el antiguo Egipto."
+  },
+  {
+    "question": "¿Cuál es la montaña más alta del mundo?",
+    "options": ["Monte Kilimanjaro", "Monte Everest", "Monte McKinley", "Monte Aconcagua"],
+    "correct_answer": "Monte Everest",
+    "explanation": "El Monte Everest es la montaña más alta del mundo, con una altitud de aproximadamente 8,848 metros sobre el nivel del mar. Se encuentra en la cordillera del Himalaya."
+  },
+  {
+    "question": "¿Qué científico desarrolló la teoría de la relatividad?",
+    "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Niels Bohr"],
+    "correct_answer": "Albert Einstein",
+    "explanation": "Albert Einstein desarrolló la teoría de la relatividad, que revolucionó nuestra comprensión del espacio, el tiempo y la gravedad. Su famosa ecuación es E=mc^2."
+  }
+]
