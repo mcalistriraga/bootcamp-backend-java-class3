@@ -28,7 +28,7 @@ Estos teléfonos están disponibles para proporcionar más información sobre lo
  
 Solución:
 
-JSON-solicitado:
+// JSON-solicitado:
 {
   "nombre_academia": "Next Lang",
   "dirección": "calle principal 123",
