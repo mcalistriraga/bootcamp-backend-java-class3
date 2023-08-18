@@ -7,13 +7,13 @@ Solución:
 
 Solucion Actividad 04
 
-prompt-ChatGP:
+prompt-ChatGP-solicitado:
 =================================================================================================
     "Puedes proporcionar otra serie de preguntas en formato JSON para mi juego de trivia". 
 =================================================================================================
 
 --------------------------------------------------------------------------------
-                              JSON: 1ra Solicitud
+                              JSON: 1ra Solicitud - generada por prompt ChatGPT
 --------------------------------------------------------------------------------
 [
   {
@@ -49,7 +49,7 @@ prompt-ChatGP:
 ]
 
 --------------------------------------------------------------------------------
-                              JSON: 2da Solicitud
+              JSON: 2da Solicitud - generada por prompt ChatGPT
 --------------------------------------------------------------------------------
 [
   {
@@ -83,11 +83,14 @@ prompt-ChatGP:
     "explanation": "La Luna es el satélite natural de la Tierra. Tiene un impacto significativo en las mareas y ha sido un objeto de interés científico y cultural a lo largo de la historia."
   }
 ]
+*******************************************************************************************************************************************************
 ------------------------------------------------------------------------
                                 ANEXO
-------------------------------------------------------------------------
+
 (solo como complemento; NO se usó)
 // programa de Python que generaría la trivia con preguntas aleatorias
+------------------------------------------------------------------------
+
 
 import random
 import json
