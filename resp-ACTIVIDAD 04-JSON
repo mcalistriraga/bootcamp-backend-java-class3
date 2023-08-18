@@ -1,0 +1,133 @@
+CLASE3-ACTIVIDAD 4
+4) Implementar un prompt para Chat GPT que genere un JSON con preguntas y respuestas de la trivia anterior. 
+Asegúrate de que cada vez que se llame al prompt, se generen preguntas de diferentes temáticas y se obtenga un resultado en formato JSON puro, sin ningún texto adicional, 
+facilitando así su copiado y pegado.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Solución:
+
+Solucion Actividad 04
+
+prompt-ChatGP:
+=================================================================================================
+    "Puedes proporcionar otra serie de preguntas en formato JSON para mi juego de trivia". 
+=================================================================================================
+
+--------------------------------------------------------------------------------
+                              JSON: 1ra Solicitud
+--------------------------------------------------------------------------------
+[
+  {
+    "question": "¿Cuál es el planeta más cercano al Sol?",
+    "options": ["Mercurio", "Venus", "Tierra", "Marte"],
+    "correct_answer": "Mercurio",
+    "explanation": "Mercurio es el planeta más cercano al Sol en nuestro sistema solar. Debido a su proximidad al Sol, es extremadamente caliente en su lado diurno y frío en su lado nocturno."
+  },
+  {
+    "question": "¿Qué pintor famoso creó la obra 'La noche estrellada'?",
+    "options": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Salvador Dalí"],
+    "correct_answer": "Vincent van Gogh",
+    "explanation": "La obra 'La noche estrellada' fue creada por el pintor holandés Vincent van Gogh. Es una de sus pinturas más icónicas, conocida por su estilo único y uso de colores vibrantes."
+  },
+  {
+    "question": "¿Cuál es el océano más grande del mundo?",
+    "options": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+    "correct_answer": "Océano Pacífico",
+    "explanation": "El Océano Pacífico es el océano más grande del mundo, abarcando una vasta extensión de agua. Contiene numerosas islas y es conocido por su influencia en el clima global."
+  },
+  {
+    "question": "¿Qué famosa estructura se encuentra en Pisa, Italia?",
+    "options": ["Torre Eiffel", "Torre de Londres", "Torre Inclinada de Pisa", "Torre de Tokio"],
+    "correct_answer": "Torre Inclinada de Pisa",
+    "explanation": "La Torre Inclinada de Pisa es una estructura icónica en Pisa, Italia. Su característica inclinación se debe a problemas en la construcción y la naturaleza del suelo sobre el que fue edificada."
+  },
+  {
+    "question": "¿Cuál es la capital de Japón?",
+    "options": ["Shanghai", "Pekín", "Seúl", "Tokio"],
+    "correct_answer": "Tokio",
+    "explanation": "La capital de Japón es Tokio. Es una metrópolis moderna y bulliciosa, conocida por su tecnología avanzada, cultura pop y tradiciones arraigadas."
+  }
+]
+
+--------------------------------------------------------------------------------
+                              JSON: 2da Solicitud
+--------------------------------------------------------------------------------
+[
+  {
+    "question": "¿Cuál es la unidad básica de la vida?",
+    "options": ["Célula", "Átomo", "Molécula", "Microorganismo"],
+    "correct_answer": "Célula",
+    "explanation": "La célula es la unidad básica de la vida. Todos los seres vivos están compuestos por una o más células, que realizan las funciones esenciales para la supervivencia y el funcionamiento de los organismos."
+  },
+  {
+    "question": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "options": ["Miguel de Cervantes", "Gabriel García Márquez", "Pablo Neruda", "Federico García Lorca"],
+    "correct_answer": "Miguel de Cervantes",
+    "explanation": "'Don Quijote de la Mancha' fue escrito por Miguel de Cervantes, considerada una de las obras más influyentes de la literatura española y universal."
+  },
+  {
+    "question": "¿Cuál es el proceso por el cual las plantas convierten la luz solar en energía?",
+    "options": ["Fotosíntesis", "Respiración", "Fermentación", "Transpiración"],
+    "correct_answer": "Fotosíntesis",
+    "explanation": "La fotosíntesis es el proceso mediante el cual las plantas y algunos otros organismos convierten la luz solar, el agua y el dióxido de carbono en energía y glucosa, liberando oxígeno como subproducto."
+  },
+  {
+    "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
+    "options": ["1896", "1900", "1912", "1924"],
+    "correct_answer": "1896",
+    "explanation": "Los primeros Juegos Olímpicos modernos se celebraron en Atenas, Grecia, en el año 1896. Fueron una reanudación de los antiguos Juegos Olímpicos de la Antigüedad."
+  },
+  {
+    "question": "¿Cuál es el satélite natural de la Tierra?",
+    "options": ["Marte", "Júpiter", "Luna", "Venus"],
+    "correct_answer": "Luna",
+    "explanation": "La Luna es el satélite natural de la Tierra. Tiene un impacto significativo en las mareas y ha sido un objeto de interés científico y cultural a lo largo de la historia."
+  }
+]
+------------------------------------------------------------------------
+                                ANEXO
+------------------------------------------------------------------------
+(solo como complemento; NO se usó)
+// programa de Python que generaría la trivia con preguntas aleatorias
+
+import random
+import json
+
+# Lista de preguntas con sus opciones, respuestas correctas y explicaciones
+preguntas = [
+    {
+        "question": "¿Cuál es la capital de Australia?",
+        "options": ["Sídney", "Melbourne", "Brisbane", "Canberra"],
+        "correct_answer": "Canberra",
+        "explanation": "Aunque Sídney y Melbourne son ciudades muy conocidas en Australia, la capital real es Canberra, que fue construida específicamente para ser la capital."
+    },
+    {
+        "question": "¿En qué año se lanzó el primer iPhone?",
+        "options": ["2005", "2007", "2010", "2012"],
+        "correct_answer": "2007",
+        "explanation": "Apple lanzó el primer iPhone en el año 2007, lo que marcó un hito importante en la industria de la telefonía móvil y la tecnología."
+    },
+    {
+        "question": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+        "options": ["Tierra", "Marte", "Júpiter", "Venus"],
+        "correct_answer": "Júpiter",
+        "explanation": "Júpiter es el planeta más grande de nuestro sistema solar. Su masa es considerablemente mayor que la de todos los demás planetas combinados."
+    }
+    # Puedes agregar más preguntas aquí
+]
+
+# Seleccionar una pregunta aleatoria
+pregunta_aleatoria = random.choice(preguntas)
+
+# Crear el archivo JSON con la pregunta aleatoria
+archivo_json = {
+    "question": pregunta_aleatoria["question"],
+    "options": pregunta_aleatoria["options"],
+    "explanation": pregunta_aleatoria["explanation"]
+}
+
+# Convertir a formato JSON y guardar en un archivo
+nombre_archivo = "pregunta_trivia.json"
+with open(nombre_archivo, "w") as archivo:
+    json.dump(archivo_json, archivo, indent=4)
+
+print(f"Se ha generado la pregunta en el archivo '{nombre_archivo}'.")
