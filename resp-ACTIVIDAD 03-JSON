@@ -3,6 +3,7 @@ CLASE3-ACTIVIDAD 3
 opciones de respuesta, la respuesta correcta y una explicación detallada de por qué esa opción es la correcta.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 SOLUCION:
+JSON-solicitado-Versión_A
 
 {
   "preguntas": [
@@ -41,7 +42,9 @@ SOLUCION:
 
 
 ......................................................................................................................................................................................
-Version Clase3-Actividad3 ChatGPT
+// JSON-solicitado
+// Version Clase3-Actividad3 ChatGPT
+
 Mas detallado…
 [
   {
